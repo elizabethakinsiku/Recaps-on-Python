@@ -1,0 +1,6 @@
+#program to jomo
+import math
+no_of_cases=input("enter the number of cases")
+scaler=0.7
+cases_reported=int(no_of_cases)*scaler
+final_cases=math.floor(cases reported)

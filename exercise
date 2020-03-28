@@ -1,0 +1,13 @@
+#PROGRAM TO CHECK ALMIGHTY FORMULA
+a=4
+b=6
+c=a+b
+print ("this is the answer" .capitalize)
+
+a=float(input("enter the coefficient of a*2"))
+b=float(input("enter the coefficient of a"))
+c=float(input("enter the costant"))
+root1=(-b+math.sqrt(b**2-4*a*c))/2*a
+root2=(-b-math.sqrt(b**2-4*a*c))/2*a
+print ("this is the answer; ",root1)
+print ("this is the answer; ",root2)
